@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center h-screen px-2 text-white">
       <img
         src="https://app.ktern.com/assets/images/ktern.PNG"
-        className="text-5xl font-bold mb-24"
+        className="font-bold mb-24 h-12 "
       />
 
       <div>
