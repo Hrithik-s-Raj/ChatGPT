@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+    .infoText{
+        @apply p-4 bg-gray-700/50 rounded-lg max-w-[300px] hover:bg-gray-400/50 cursor-pointer
+    }
+
+    .chatRow{
+        @apply  rounded-lg px-5 py-3 text-sm flex items-center justify-center space-x-2 hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-out
+    }
+}
+
+
+
+ .login-img {
+    background: linear-gradient(
+        to bottom,
+        #9d0102,
+        rgba(195, 20, 50, 0.8),
+        rgba(36, 11, 54, 0.8)
+      ),
+      url(https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80);
+      background-repeat:no-repeat;
+      background-size: cover;
+  }
+
+  .login-img {
+    background: linear-gradient(
+        to bottom,
+        #9d0102,
+        rgba(195, 20, 50, 0.8),
+        rgba(36, 11, 54, 0.8)
+      ),
+   
+  }
