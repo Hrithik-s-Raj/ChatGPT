@@ -22,7 +22,7 @@ export default function Home() {
           onClick={() => signOut()}
           src={session.user?.image}
           alt="Profile Picture"
-          className=" absolute h-12 w-12 rounded-full cursor-pointer mx-auto mb-2 hover:opacity-50 mt-4 z-50 right-0 mr-5
+          className=" absolute h-12 w-12 rounded-full cursor-pointer mx-auto mb-2  border-[2px] border-black hover:opacity-80 mt-4 z-50 right-0 mr-5  
       "
         />
       )}
