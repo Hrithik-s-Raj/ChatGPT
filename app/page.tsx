@@ -8,24 +8,29 @@ import {
   ExclamationTriangleIcon,
   SunIcon,
 } from "@heroicons/react/24/outline";
-import { signOut } from "next-auth/react";
+import { signOut, useSession } from "next-auth/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const { data: session } = useSession();
+
   return (
     <>
-      <button
-        onClick={() => signOut()}
-        className="text-white  ml-[1050px] mt-5 bg-[#d84101] p-2 rounded-full login-img2 text-bold hover:bg-slate-300/50"
-      >
-        Signout
-      </button>
+      {session && (
+        <img
+          onClick={() => signOut()}
+          src={session.user?.image}
+          alt="Profile Picture"
+          className=" absolute h-12 w-12 rounded-full cursor-pointer mx-auto mb-2 hover:opacity-50 mt-4 z-50 right-0 mr-5
+      "
+        />
+      )}
 
       <div className="flex flex-col items-center justify-center h-screen px-2 text-white">
         <img
           src="https://app.ktern.com/assets/images/ktern.PNG"
-          className="font-bold mb-24 h-12 "
+          className="font-bold mb-20 h-12 "
         />
 
         <div className="flex space-x-2 text-center">
