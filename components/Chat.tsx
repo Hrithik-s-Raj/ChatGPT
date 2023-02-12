@@ -3,7 +3,7 @@ type Props = {
   id: string;
 };
 function Chat({ id }: Props) {
-  return <div>Chat</div>;
+  return <div className="flex-1">Chat</div>;
 }
 
 export default Chat;
