@@ -13,6 +13,8 @@ const query = async (prompt: string, id: string, model: string) => {
     })
     .then((res) => res.data.choices[0].text)
     .catch((err) => `Sorry for that Please Try again,(Error:${err.message})`);
+
+  console.log("+++++++++++++++++++++++++++++++++++", res);
   return res;
 };
 
