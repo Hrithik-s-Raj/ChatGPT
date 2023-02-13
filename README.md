@@ -10,10 +10,10 @@
 </br>
 
 
-Feed the  environment variables values with the example.env provided
-Create a Firebase Project Add the Google ID , Secret
-Generate Firebase Admin Config And linebreak the donwloaded JSON using the following site : https://www.textfixer.com/tools/remove-line-breaks.php
-Paste the value into the Env file 
-Go to OPENAI.com and generate a API KEY
+Feed the  environment variables values with the example.env provided</br>
+Create a Firebase Project Add the Google ID , Secret</br>
+Generate Firebase Admin Config And linebreak the donwloaded JSON using the following site : https://www.textfixer.com/tools/remove-line-breaks.php</br>
+Paste the value into the Env file </br>
+Go to OPENAI.com and generate a API KEY</br>
 
-run the Command Npm run dev
+run the Command Npm run dev</br>
