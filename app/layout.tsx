@@ -25,7 +25,7 @@ export default async function RootLayout({
             <Login />
           ) : (
             <div className="flex ">
-              <div className=" hidden mr-3 login-img max-w-xs overflow-y-auto md:min-w-[20rem] md:inline-flex ">
+              <div className=" hidden mr-3 login-img max-w-xs overflow-y-auto md:min-w-[22rem] md:inline-flex ">
                 <Sidebar />
               </div>
 

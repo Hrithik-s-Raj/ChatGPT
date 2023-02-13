@@ -43,7 +43,7 @@ function ChatInput({ id }: Props) {
 
     //Toast Notification loading
 
-    const notification = toast.loading(" Thinking .....");
+    const notification = toast.loading(" KTern-GPT is Thinking .....");
 
     await fetch("/api/askQuestion", {
       method: "POST",
@@ -78,7 +78,7 @@ function ChatInput({ id }: Props) {
         <button
           disabled={!prompt || !session}
           type="submit"
-          className="bg-[#11a37f] hover:opacity-50 text-white font-bold px-4 py-2 rounded disabled:bg-gray-300 disabled:cursor-not-allowed"
+          className="bg-[#ae1925] hover:opacity-50 text-white font-bold px-4 py-2 rounded disabled:bg-gray-300 disabled:cursor-not-allowed"
         >
           <PaperAirplaneIcon className="h-4 w-4 -rotate-45" />
         </button>

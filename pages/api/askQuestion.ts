@@ -4,6 +4,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import admin from "firebase-admin";
 import { adminDb } from "@/firebaseAdmin";
 import { collection, doc } from "firebase/firestore";
+import { firestore } from "firebase-admin";
 
 type Data = {
   answer: any;
@@ -35,7 +36,8 @@ export default async function handler(
     user: {
       _id: "Chatgpt",
       name: "Chatgpt",
-      avatar: "chatgpt",
+      avatar:
+        "https://storage.googleapis.com/ktern-public-files/website/icons/favicon.ico",
     },
   };
 
@@ -48,6 +50,6 @@ export default async function handler(
     .add(message);
 
   console.log("ascamsncl'aksnc'l", message.text);
-  //   const respose = await query(prompt, id, model);
+  const respose = await query(prompt, id, model);
   res.status(200).json({ answer: message.text });
 }

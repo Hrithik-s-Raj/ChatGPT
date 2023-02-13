@@ -26,10 +26,11 @@ function Sidebar() {
       <div className="flex-1 p-5">
         <div className="">
           <NewChat />
-
-          {chats?.docs.map((chat) => {
-            return <ChatRow key={chat.id} id={chat.id} />;
-          })}
+          <div className="mt-5 space-y-1">
+            {chats?.docs.map((chat) => {
+              return <ChatRow key={chat.id} id={chat.id} />;
+            })}
+          </div>
         </div>
       </div>
     </div>
