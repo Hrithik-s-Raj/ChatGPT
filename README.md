@@ -10,7 +10,7 @@
 </br>
 
 
-Feed the  enviorment variables values with the example.env provided
+Feed the  environment variables values with the example.env provided
 Create a Firebase Project Add the Google ID , Secret
 Generate Firebase Admin Config And linebreak the donwloaded JSON using the following site : https://www.textfixer.com/tools/remove-line-breaks.php
 Paste the value into the Env file 
