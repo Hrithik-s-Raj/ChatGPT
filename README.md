@@ -17,4 +17,4 @@ Generate Firebase Admin Config And linebreak the donwloaded JSON using the follo
 Paste the value into the Env file </br>
 Go to OPENAI.com and generate a API KEY</br>
 
-run the Command Npm run dev</br>
+run the command Npm run dev</br>
