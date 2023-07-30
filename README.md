@@ -14,7 +14,6 @@
 </br>
 </br>
 
-
 Feed the  environment variables values with the example.env provided</br>
 Create a Firebase Project Add the Google ID , Secret</br>
 Generate Firebase Admin Config And linebreak the donwloaded JSON using the following site : </br>https://www.textfixer.com/tools/remove-line-breaks.php</br>
